@@ -87,6 +87,13 @@ form a{
 form a:hover{
   color: #007c8a;
 }
+@media screen and (max-width: 767px) {
+  .fa-eye{
+    position: absolute;
+    top: 49%;
+    left: 80%;
+  }
+}
 
 
 
