@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style/cadastro.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style/cadastro.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIPE Stock System</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section>
-            <div>
-                <form >
-                    <h1>Cadastro</h1>
-                    <input id="email" type="text" name="email" placeholder="Digite seu E-mail...">
-                    <i class="fa fa-eye" aria-hidden="true"></i>
-                    <input id="password" type="password" name="senha" placeholder="Digite sua Senha...">
-                    <i class="fa fa-eye" id="eye2" aria-hidden="true"></i>
-                    <input id="confirmPassword" type="password" name="confirmasenha" placeholder="Confirme sua Senha...">
-                    <input type="submit" nome="acao" value="Cadastrar">
-                    <hr>
-                    <a href="index.html">Login</a>
-                </form>
+      <section>
+        <div>
+          <form id="form" class="form">
+            <h1>Cadastro</h1>
+            <div class="Email">
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Digite seu E-mail..."
+              />
+              <small>Mensagem de erro</small>
             </div>
-        </section>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            <input
+              id="password"
+              type="password"
+              name="senha"
+              placeholder="Digite sua Senha..."
+            />
+            <i class="fa fa-eye" id="eye2" aria-hidden="true"></i>
+            <input
+              id="confirmPassword"
+              type="password"
+              name="confirmasenha"
+              placeholder="Confirme sua Senha..."
+            />
+            <input type="submit" nome="acao" value="Cadastrar" />
+            <hr />
+            <a href="index.html">Login</a>
+          </form>
+        </div>
+      </section>
     </main>
     <script src="./scripts/cadastro.js"></script>
-</body>
+  </body>
 </html>
