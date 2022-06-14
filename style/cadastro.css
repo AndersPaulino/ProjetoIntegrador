@@ -42,17 +42,19 @@ form input[type="password"] {
   position: absolute;
   cursor: pointer;
   color: #007c8a;
-  top: 40%;
-  left: 90%;
+  top: 38%;
+  left: 91%;
 }
 #eye2 {
   position: absolute;
   cursor: pointer;
   color: #007c8a;
-  top: 56%;
-  left: 90%;
+  top: 58%;
+  left: 91%;
 }
 form input[type="submit"] {
+  position: relative;
+  top: 10px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 15px;
@@ -94,30 +96,6 @@ form a {
 form a:hover {
   color: #007c8a;
 }
-@media screen and (max-width: 767px) {
-  .fa-eye {
-    position: absolute;
-    top: 40%;
-    left: 80%;
-  }
-  #eye2 {
-    position: absolute;
-    top: 59%;
-    left: 80%;
-  }
-}
-
-@keyframes colors {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 .form small {
   position: relative;
@@ -134,4 +112,29 @@ form a:hover {
 
 .form.error small {
   visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+  .fa-eye {
+    position: absolute;
+    top: 39%;
+    left: 81%;
+  }
+  #eye2 {
+    position: absolute;
+    top: 59%;
+    left: 81%;
+  }
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

@@ -3,6 +3,9 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const passwordconfirmation = document.getElementById("passwordconfirmation");
 
+let btn = document.querySelector(".fa-eye");
+let btn2 = document.querySelector("#eye2");
+
 form.addEventListener("input", (e) => {
   e.preventDefault();
 
@@ -31,7 +34,7 @@ function checkInputs() {
   }
 
   if (passwordconfirmationValue === "") {
-    setErrorFor(passwordconfirmation, "A comfirmação da senha é obrigatória.");
+    setErrorFor(passwordconfirmation, "A confirmação da senha é obrigatória.");
   } else if (passwordconfirmationValue.length < 8) {
     setErrorFor(passwordconfirmation, "A senha é muito curta");
   } else if (passwordconfirmationValue != passwordValue) {
@@ -64,3 +67,18 @@ function checkEmail(email) {
     email
   );
 }
+
+btn.addEventListener("click", () => {
+  if (password.getAttribute("type") == "password") {
+    password.setAttribute("type", "text");
+  } else {
+    password.setAttribute("type", "password");
+  }
+});
+btn2.addEventListener("click", () => {
+  if (passwordconfirmation.getAttribute("type") == "password") {
+    passwordconfirmation.setAttribute("type", "text");
+  } else {
+    passwordconfirmation.setAttribute("type", "password");
+  }
+});
