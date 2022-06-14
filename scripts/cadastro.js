@@ -1,5 +1,7 @@
 const form = document.getElementById("form");
 const email = document.getElementById("email");
+const password = document.getElementById("password");
+const passwordconfirmation = document.getElementById("passwordconfirmation");
 
 form.addEventListener("input", (e) => {
   e.preventDefault();
@@ -9,6 +11,8 @@ form.addEventListener("input", (e) => {
 
 function checkInputs() {
   const emailValue = email.value;
+  const passwordValue = password.value;
+  const passwordconfirmationValue = passwordconfirmation.value;
 
   if (emailValue === "") {
     setErrorFor(email, "o email é obrigatório.");
@@ -16,6 +20,24 @@ function checkInputs() {
     setErrorFor(email, "Por favor, insira um email válido");
   } else {
     SetSuccessFor(email);
+  }
+
+  if (passwordValue === "") {
+    setErrorFor(password, "A senha é obrigatória.");
+  } else if (passwordValue.length < 8) {
+    setErrorFor(password, "A senha é muito curta.");
+  } else {
+    SetSuccessFor(password);
+  }
+
+  if (passwordconfirmationValue === "") {
+    setErrorFor(passwordconfirmation, "A comfirmação da senha é obrigatória.");
+  } else if (passwordconfirmationValue.length < 8) {
+    setErrorFor(passwordconfirmation, "A senha é muito curta");
+  } else if (passwordconfirmationValue != passwordValue) {
+    setErrorFor(passwordconfirmation, "As senhas não são iguais.");
+  } else {
+    SetSuccessFor(passwordconfirmation);
   }
 }
 
