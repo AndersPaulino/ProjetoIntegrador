@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #c4ddff;
+  background-color: #ffff;
 }
 form {
-  background: linear-gradient(45deg, #e8f9fd, #79dae8, #0aa1dd, #2155cd);
+  background: linear-gradient(45deg, #faffce, #79dae8, #0aa1dd, #450f9c);
   background-size: 300% 300%;
   animation: colors 10s ease infinite;
   max-width: 500px;
@@ -72,6 +72,11 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #007c8a;
 }
+
+form input[type="submit"]:active {
+  background-color: #79dae8;
+}
+
 form input[type="text"]:focus {
   outline: 0;
 }
