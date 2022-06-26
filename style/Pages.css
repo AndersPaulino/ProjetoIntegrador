@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+form {
+  background: linear-gradient(45deg, #faffce, #79dae8, #0aa1dd, #450f9c);
+  background-size: 300% 300%;
+  animation: colors 10s ease infinite;
+  width: 65%;
+  height: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+form h1 {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+form h2 {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.BTSUP1 {
+  position: relative;
+  top: 0%;
+  left: 2%;
+}
+.BTSUP2 {
+  position: relative;
+  top: -5.7%;
+  left: 18%;
+}
+.BTSUP3 {
+  position: relative;
+  top: -11.5%;
+  left: 32%;
+}
+.BTSUP4 {
+  position: relative;
+  top: -17.5%;
+  left: 47%;
+}
+form input[id="BOX1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 35%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+form input[id="BOX2"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 35%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+form input[id="BOX3"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 60%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+form input[id="BOX4"],
+form input[id="BOX5"],
+form input[id="BOX6"],
+form input[id="BOX7"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 15%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.Box1 {
+  position: relative;
+  top: -8%;
+  left: 2%;
+}
+
+.Box2 {
+  position: relative;
+  top: -4%;
+  left: 2%;
+}
+
+.Box3 {
+  position: relative;
+  top: 0%;
+  left: 2%;
+}
+
+.Box4 {
+  position: relative;
+  top: 8%;
+  left: 2%;
+}
+
+.Box5 {
+  position: relative;
+  top: -7%;
+  left: 20%;
+}
+
+.Box6 {
+  position: relative;
+  top: -22%;
+  left: 60%;
+}
+
+.Box7 {
+  position: relative;
+  top: -37%;
+  left: 78%;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
