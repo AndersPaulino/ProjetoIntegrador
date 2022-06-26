@@ -54,6 +54,86 @@ form h2 {
   left: 47%;
 }
 
+form input[id="BOX1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 45%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.Box1 {
+  position: relative;
+  top: -10%;
+  left: 2%;
+}
+
+form input[id="BOX2"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 15%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.Box2 {
+  position: relative;
+  top: -25%;
+  left: 80%;
+}
+
 a {
   text-decoration: none;
+}
+
+form input[id="BT1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  size: 30px;
+  width: 15%;
+  height: 40px;
+  /* Para o usuário saber que o botão é clicavel*/
+  cursor: pointer;
+  background: green;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.BT1 {
+  position: relative;
+  top: -20%;
+  left: 62%;
+}
+
+form input[id="BT2"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  size: 30px;
+  width: 15%;
+  height: 40px;
+  /* Para o usuário saber que o botão é clicavel*/
+  cursor: pointer;
+  background: red;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.BT2 {
+  position: relative;
+  top: -26.5%;
+  left: 80%;
 }

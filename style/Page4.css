@@ -26,6 +26,13 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
+
+form label {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
 form h2 {
   color: white;
   font-family: "Poppins";
@@ -56,4 +63,38 @@ form h2 {
 
 a {
   text-decoration: none;
+}
+
+.Box1 {
+  position: relative;
+  top: -10%;
+  left: 2%;
+}
+
+form select {
+  width: 35%;
+  height: 45px;
+  border-radius: 20px;
+}
+
+form input[id="BT1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  size: 30px;
+  width: 15%;
+  height: 40px;
+  /* Para o usuário saber que o botão é clicavel*/
+  cursor: pointer;
+  background: green;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.BT1 {
+  position: relative;
+  top: -17%;
+  left: 70%;
 }
