@@ -101,6 +101,13 @@ form input[id="BT1"] {
   left: 70%;
 }
 @media screen and (max-width: 767px) {
+  form {
+    width: 90%;
+    height: 90%;
+  }
+  .BT1{
+    top: -15.5%;
+  }
   .BTSUP1 {
     position: relative;
     top: 0%;
@@ -108,23 +115,17 @@ form input[id="BT1"] {
   }
   .BTSUP2 {
     position: relative;
-    top: -6%;
+    top: -4.6%;
     left: 27%;
   }
   .BTSUP3 {
     position: relative;
-    top: -11.9%;
+    top: -9.3%;
     left: 50%;
   }
   .BTSUP4 {
     position: relative;
-    top: -18%;
+    top: -14%;
     left: 75%;
   }
-  .BT1 {
-    position: relative;
-    top: -17.5%;
-    left: 80%;
-  }
-  
 }
