@@ -45,11 +45,12 @@ form input[type=password]{
   top: 48%;
   left: 90%;
 }
-form input[type=submit]{
+.entrar{
+    
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 15px;
-    size: 30px;
+    size: 40px;
     width: 100%;
     height: 40px;
     /* Para o usuário saber que o botão é clicavel*/
@@ -60,10 +61,11 @@ form input[type=submit]{
     border-radius: 20px;
     transition: 0.5s;
 }
-form input[type=submit]:hover{
+.entrar:hover{
   background-color: #007c8a;
+  color: white;
 }
-form input[type=submit]:active{
+.entrar:active{
   background-color: #79dae8;
 }
 form input[type=text]:focus{
