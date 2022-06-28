@@ -116,12 +116,12 @@ form input[id="BT1"] {
   .BTSUP1 {
     position: relative;
     top: 0%;
-    left: 0%;
+    left: -2%;
   }
   .BTSUP2 {
     position: relative;
     top: -4.2%;
-    left: 27%;
+    left: 26%;
   }
   .BTSUP3 {
     position: relative;
@@ -130,7 +130,7 @@ form input[id="BT1"] {
   }
   .BTSUP4 {
     position: relative;
-    top: -12.6%;
-    left: 75%;
+    top: -12.4%;
+    left: 76%;
   }
 }

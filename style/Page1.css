@@ -162,12 +162,12 @@ form input[id="BOX7"] {
   .BTSUP1 {
     position: relative;
     top: 0%;
-    left: 0%;
+    left: -2%;
   }
   .BTSUP2 {
     position: relative;
     top: -4.2%;
-    left: 27%;
+    left: 26%;
   }
   .BTSUP3 {
     position: relative;
@@ -176,8 +176,8 @@ form input[id="BOX7"] {
   }
   .BTSUP4 {
     position: relative;
-    top: -12.6%;
-    left: 75%;
+    top: -12.4%;
+    left: 76%;
   }
   .Box4 {
     position: relative;
@@ -193,13 +193,13 @@ form input[id="BOX7"] {
   
   .Box6 {
     position: relative;
-    top: -28.7%;
+    top: -26.7%;
     left: 70%;
   }
   
   .Box7 {
     position: relative;
-    top: -28.7%;
+    top: -26.7%;
     left: 70%;
   }
 }
