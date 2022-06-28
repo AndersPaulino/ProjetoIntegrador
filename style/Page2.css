@@ -104,6 +104,9 @@ table, th{
     width: 90%;
     height: 90%;
   }
+  form h1 {
+    font-size: 20px;
+  }
   .BTSUP1 {
     position: relative;
     top: 0%;
@@ -127,6 +130,12 @@ table, th{
   table{
     position: relative;
     left: 0%;
+  }
+  table, th{
+    padding: 0;
+  }
+  table, th, td{
+    font-size: 15px;
   }
   button{
     position: relative;

@@ -155,6 +155,9 @@ form input[id="BOX7"] {
     width: 90%;
     height: 90%;
   }
+  form h1 {
+    font-size: 20px;
+  }
   .BTSUP1 {
     position: relative;
     top: 0%;
@@ -189,13 +192,13 @@ form input[id="BOX7"] {
   
   .Box6 {
     position: relative;
-    top: -25.2%;
+    top: -30.6%;
     left: 60%;
   }
   
   .Box7 {
     position: relative;
-    top: -25.2%;
+    top: -30.6%;
     left: 60%;
   }
 }

@@ -105,8 +105,12 @@ form input[id="BT1"] {
     width: 90%;
     height: 90%;
   }
+  form h1 {
+    font-size: 20px;
+  }
   .BT1{
-    top: -15.5%;
+    top: -17%;
+    left: 85%;
   }
   .BTSUP1 {
     position: relative;

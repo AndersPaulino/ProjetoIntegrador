@@ -145,6 +145,9 @@ form input[id="BT2"] {
     width: 90%;
     height: 90%;
   }
+  form h1 {
+    font-size: 20px;
+  }
   .BTSUP1 {
     position: relative;
     top: 0%;
