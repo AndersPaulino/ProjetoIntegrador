@@ -150,7 +150,7 @@ form input[id="BOX7"] {
   left: 78%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   form {
     width: 90%;
     height: 90%;

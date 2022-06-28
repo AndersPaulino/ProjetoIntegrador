@@ -140,7 +140,7 @@ form input[id="BT2"] {
   top: -26.5%;
   left: 80%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   form {
     width: 90%;
     height: 90%;
