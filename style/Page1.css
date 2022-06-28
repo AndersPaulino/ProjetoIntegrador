@@ -152,8 +152,8 @@ form input[id="BOX7"] {
 
 @media screen and (max-width: 768px) {
   form {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
   }
   form h1 {
     font-size: 20px;
@@ -165,17 +165,17 @@ form input[id="BOX7"] {
   }
   .BTSUP2 {
     position: relative;
-    top: -4.6%;
+    top: -4.5%;
     left: 27%;
   }
   .BTSUP3 {
     position: relative;
-    top: -9.3%;
+    top: -9%;
     left: 50%;
   }
   .BTSUP4 {
     position: relative;
-    top: -14%;
+    top: -13.5%;
     left: 75%;
   }
   .Box4 {
@@ -192,14 +192,14 @@ form input[id="BOX7"] {
   
   .Box6 {
     position: relative;
-    top: -30.6%;
-    left: 60%;
+    top: -28.7%;
+    left: 70%;
   }
   
   .Box7 {
     position: relative;
-    top: -30.6%;
-    left: 60%;
+    top: -28.7%;
+    left: 70%;
   }
 }
 
