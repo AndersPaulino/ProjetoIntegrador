@@ -26,13 +26,39 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
+form h1:hover{
+  color: #009DAE;
+}
 form h2 {
   color: white;
   font-family: "Poppins";
   font-weight: 100;
   font-size: 18px;
 }
-
+button{
+  position: relative;
+  left: 45%;
+  top: 5%;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #009DAE;
+  border: none;
+}
+#btn1{
+  width: 15px;
+  border-radius: 10px 0 0 10px;
+}
+#btn2{
+  width: 40px;
+}
+#btn3{
+  width: 15px;
+  border-radius: 0px 10px 10px 0px;
+}
+button:hover{
+  background-color: #007c8a;
+}
 .BTSUP1 {
   position: relative;
   top: 0%;
@@ -48,12 +74,62 @@ form h2 {
   top: -11.5%;
   left: 32%;
 }
+table{
+  position: relative;
+  left: 20%;
+
+}
+table, th, td{
+  background-color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #009DAE;
+  color: #009DAE;
+}
+table, th{
+  background-color: #009DAE;
+  color: white;
+  padding: 10px;
+  
+}
 .BTSUP4 {
   position: relative;
   top: -17.5%;
   left: 47%;
 }
-
+@media screen and (max-width: 767px) {
+  .BTSUP1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .BTSUP2 {
+    position: relative;
+    top: -6%;
+    left: 27%;
+  }
+  .BTSUP3 {
+    position: relative;
+    top: -11.9%;
+    left: 50%;
+  }
+  .BTSUP4 {
+    position: relative;
+    top: -18%;
+    left: 75%;
+  }
+  table{
+    position: relative;
+    left: -2%;
+  }
+  button{
+    position: relative;
+    left: 45%;
+    top: 5%;
+  }
+}
 a {
   text-decoration: none;
 }
