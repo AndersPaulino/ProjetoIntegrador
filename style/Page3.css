@@ -173,14 +173,14 @@ form input[id="BT2"] {
     position: relative;
     width: 500px;
     height: 20px;
-    top: 10%;
-    left: 20%;
+    top: 0%;
+    left: 2%;
   }
   .BT2 {
     position: relative;
     width: 500px;
     height: 20px;
-    top: -12.7%;
+    top: 4%;
     left: 2%;
   }
   .Box2 {
