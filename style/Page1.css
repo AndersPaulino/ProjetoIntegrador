@@ -27,8 +27,8 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
-form h1:hover{
-  color: #009DAE;
+form h1:hover {
+  color: #009dae;
 }
 form h2 {
   color: white;
@@ -184,22 +184,22 @@ form input[id="BOX7"] {
     top: -1%;
     left: 2%;
   }
-  
+
   .Box5 {
     position: relative;
     top: -1%;
     left: 2%;
   }
-  
+
   .Box6 {
     position: relative;
-    top: -26.7%;
+    top: -24.7%;
     left: 70%;
   }
-  
+
   .Box7 {
     position: relative;
-    top: -26.7%;
+    top: -24.7%;
     left: 70%;
   }
 }
