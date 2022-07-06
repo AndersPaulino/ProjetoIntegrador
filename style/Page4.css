@@ -26,8 +26,8 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
-form h1:hover{
-  color: #009DAE;
+form h1:hover {
+  color: #009dae;
 }
 form label {
   color: white;
@@ -109,8 +109,8 @@ form input[id="BT1"] {
   form h1 {
     font-size: 20px;
   }
-  .BT1{
-    top: -17%;
+  .BT1 {
+    top: -15%;
     left: 85%;
   }
   .BTSUP1 {
