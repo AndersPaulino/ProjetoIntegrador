@@ -26,6 +26,13 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
+form h2 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 40px;
+}
 form input[type="text"],
 form input[type="password"] {
   font-family: "Poppins";
@@ -42,14 +49,14 @@ form input[type="password"] {
   position: absolute;
   cursor: pointer;
   color: #007c8a;
-  top: 38%;
+  top: 46%;
   left: 91%;
 }
 #eye2 {
   position: absolute;
   cursor: pointer;
   color: #007c8a;
-  top: 58%;
+  top: 64%;
   left: 91%;
 }
 form input[type="submit"] {
@@ -122,12 +129,12 @@ form a:hover {
 @media screen and (max-width: 767px) {
   .fa-eye {
     position: absolute;
-    top: 39%;
+    top: 47%;
     left: 81%;
   }
   #eye2 {
     position: absolute;
-    top: 59%;
+    top: 65%;
     left: 81%;
   }
 }
