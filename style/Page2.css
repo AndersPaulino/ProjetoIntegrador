@@ -26,8 +26,8 @@ form h1 {
   font-family: "Poppins";
   font-weight: 400;
 }
-form h1:hover{
-  color: #009DAE;
+form h1:hover {
+  color: #009dae;
 }
 form h2 {
   color: white;
@@ -35,28 +35,28 @@ form h2 {
   font-weight: 100;
   font-size: 18px;
 }
-button{
+button {
   position: relative;
   left: 45%;
   top: 5%;
   font-family: "Poppins";
   font-weight: 400;
   color: #ffffff;
-  background-color: #009DAE;
+  background-color: #009dae;
   border: none;
 }
-#btn1{
+#btn1 {
   width: 15px;
   border-radius: 10px 0 0 10px;
 }
-#btn2{
+#btn2 {
   width: 40px;
 }
-#btn3{
+#btn3 {
   width: 15px;
   border-radius: 0px 10px 10px 0px;
 }
-button:hover{
+button:hover {
   background-color: #007c8a;
 }
 .BTSUP1 {
@@ -74,25 +74,26 @@ button:hover{
   top: -11.5%;
   left: 32%;
 }
-table{
+table {
   position: relative;
   left: 20%;
-
 }
-table, th, td{
+table,
+th,
+td {
   background-color: white;
   font-family: "Poppins";
   font-weight: 400;
   text-align: center;
   border-collapse: collapse;
-  border: 1px solid #009DAE;
-  color: #009DAE;
+  border: 1px solid #009dae;
+  color: #009dae;
 }
-table, th{
-  background-color: #009DAE;
+table,
+th {
+  background-color: #009dae;
   color: white;
   padding: 10px;
-  
 }
 .BTSUP4 {
   position: relative;
@@ -128,17 +129,20 @@ table, th{
     top: -12.4%;
     left: 76%;
   }
-  table{
+  table {
     position: relative;
     left: 0%;
   }
-  table, th{
+  table,
+  th {
     padding: 0;
   }
-  table, th, td{
+  table,
+  th,
+  td {
     font-size: 15px;
   }
-  button{
+  button {
     position: relative;
     left: 40%;
     top: 5%;
@@ -146,4 +150,15 @@ table, th{
 }
 a {
   text-decoration: none;
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
