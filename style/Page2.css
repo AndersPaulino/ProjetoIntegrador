@@ -9,7 +9,7 @@ body {
   background-color: #ffffff;
 }
 form {
-  background: linear-gradient(45deg, #faffce, #79dae8, #0aa1dd, #450f9c);
+  background: rgb(200, 200, 200);
   background-size: 300% 300%;
   animation: colors 10s ease infinite;
   width: 65%;
@@ -22,7 +22,7 @@ form {
   border-radius: 20px;
 }
 form h1 {
-  color: white;
+  color: black;
   font-family: "Poppins";
   font-weight: 400;
 }
@@ -30,7 +30,7 @@ form h1:hover {
   color: #009dae;
 }
 form h2 {
-  color: white;
+  color: black;
   font-family: "Poppins";
   font-weight: 100;
   font-size: 18px;
@@ -87,12 +87,12 @@ td {
   text-align: center;
   border-collapse: collapse;
   border: 1px solid #009dae;
-  color: #009dae;
+  color: black;
 }
 table,
 th {
   background-color: #009dae;
-  color: white;
+  color: black;
   padding: 10px;
 }
 .BTSUP4 {

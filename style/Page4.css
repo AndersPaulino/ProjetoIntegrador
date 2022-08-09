@@ -9,7 +9,7 @@ body {
   background-color: #ffffff;
 }
 form {
-  background: linear-gradient(45deg, #faffce, #79dae8, #0aa1dd, #450f9c);
+  background: rgb(200, 200, 200);
   background-size: 300% 300%;
   animation: colors 10s ease infinite;
   width: 65%;
@@ -22,7 +22,7 @@ form {
   border-radius: 20px;
 }
 form h1 {
-  color: white;
+  color: black;
   font-family: "Poppins";
   font-weight: 400;
 }
@@ -30,13 +30,13 @@ form h1:hover {
   color: #009dae;
 }
 form label {
-  color: white;
+  color: black;
   font-family: "Poppins";
   font-weight: 400;
 }
 
 form h2 {
-  color: white;
+  color: black;
   font-family: "Poppins";
   font-weight: 100;
   font-size: 18px;
@@ -69,7 +69,7 @@ a {
 
 .Box1 {
   position: relative;
-  top: -10%;
+  top: 0%;
   left: 2%;
 }
 
@@ -97,7 +97,7 @@ form input[id="BT1"] {
 
 .BT1 {
   position: relative;
-  top: -17%;
+  top: -7%;
   left: 70%;
 }
 @media screen and (max-width: 768px) {
