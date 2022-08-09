@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+form {
+  background: rgb(200, 200, 200);
+  background-size: 300% 300%;
+  animation: colors 10s ease infinite;
+  width: 65%;
+  height: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+form h1 {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+form h1:hover {
+  color: #009dae;
+}
+form h2 {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 18px;
+}
+button {
+  position: relative;
+  left: 45%;
+  top: 5%;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #009dae;
+  border: none;
+}
+#btn1 {
+  width: 15px;
+  border-radius: 10px 0 0 10px;
+}
+#btn2 {
+  width: 40px;
+}
+#btn3 {
+  width: 15px;
+  border-radius: 0px 10px 10px 0px;
+}
+button:hover {
+  background-color: #007c8a;
+}
+.BTSUP1 {
+  position: relative;
+  top: 0%;
+  left: 2%;
+}
+.BTSUP2 {
+  position: relative;
+  top: -5.7%;
+  left: 18%;
+}
+.BTSUP3 {
+  position: relative;
+  top: -11.5%;
+  left: 32%;
+}
+table {
+  position: relative;
+  left: 20%;
+}
+table,
+th,
+td {
+  background-color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #009dae;
+  color: black;
+}
+table,
+th {
+  background-color: #009dae;
+  color: black;
+  padding: 10px;
+}
+.BTSUP4 {
+  position: relative;
+  top: -17.5%;
+  left: 47%;
+}
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  .BTSUP1 {
+    position: relative;
+    top: 0%;
+    left: -2%;
+  }
+  .BTSUP2 {
+    position: relative;
+    top: -4.2%;
+    left: 26%;
+  }
+  .BTSUP3 {
+    position: relative;
+    top: -8.3%;
+    left: 50%;
+  }
+  .BTSUP4 {
+    position: relative;
+    top: -12.4%;
+    left: 76%;
+  }
+  table {
+    position: relative;
+    left: 0%;
+  }
+  table,
+  th {
+    padding: 0;
+  }
+  table,
+  th,
+  td {
+    font-size: 15px;
+  }
+  button {
+    position: relative;
+    left: 40%;
+    top: 5%;
+  }
+}
+a {
+  text-decoration: none;
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

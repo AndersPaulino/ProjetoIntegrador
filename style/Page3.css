@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+form {
+  background: rgb(200, 200, 200);
+  background-size: 300% 300%;
+  animation: colors 10s ease infinite;
+  width: 65%;
+  height: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+form h1 {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+form h1:hover {
+  color: #009dae;
+}
+form h2 {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.BTSUP1 {
+  position: relative;
+  top: 0%;
+  left: 2%;
+}
+.BTSUP2 {
+  position: relative;
+  top: -5.7%;
+  left: 18%;
+}
+.BTSUP3 {
+  position: relative;
+  top: -11.5%;
+  left: 32%;
+}
+.BTSUP4 {
+  position: relative;
+  top: -17.5%;
+  left: 47%;
+}
+
+form input[id="BOX1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 45%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.Box1 {
+  position: relative;
+  top: -10%;
+  left: 2%;
+}
+
+form input[id="BOX2"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  width: 15%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.Box2 {
+  position: relative;
+  top: -25%;
+  left: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+form input[id="BT1"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  size: 30px;
+  width: 15%;
+  height: 40px;
+  /* Para o usuário saber que o botão é clicavel*/
+  cursor: pointer;
+  background: green;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.BT1 {
+  position: relative;
+  top: -20%;
+  left: 62%;
+}
+
+form input[id="BT2"] {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  size: 30px;
+  width: 15%;
+  height: 40px;
+  /* Para o usuário saber que o botão é clicavel*/
+  cursor: pointer;
+  background: red;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.BT2 {
+  position: relative;
+  top: -26.5%;
+  left: 80%;
+}
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  .BTSUP1 {
+    position: relative;
+    top: 0%;
+    left: -2%;
+  }
+  .BTSUP2 {
+    position: relative;
+    top: -4.2%;
+    left: 26%;
+  }
+  .BTSUP3 {
+    position: relative;
+    top: -8.3%;
+    left: 50%;
+  }
+  .BTSUP4 {
+    position: relative;
+    top: -12.4%;
+    left: 76%;
+  }
+  .BT1 {
+    position: relative;
+    width: 500px;
+    height: 20px;
+    top: 0%;
+    left: 2%;
+  }
+  .BT2 {
+    position: relative;
+    width: 500px;
+    height: 20px;
+    top: 4%;
+    left: 2%;
+  }
+  .Box2 {
+    position: relative;
+    top: -10%;
+    left: 2%;
+  }
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
